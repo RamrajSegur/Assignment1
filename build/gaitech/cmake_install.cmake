@@ -1,8 +1,8 @@
-# Install script for directory: /home/ramraj/catkin_ws/src/gaitech
+# Install script for directory: /home/ramraj/catkin_ws_copy/src/gaitech
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ramraj/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ramraj/catkin_ws_copy/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ramraj/catkin_ws/build/gaitech/catkin_generated/installspace/gaitech.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ramraj/catkin_ws_copy/build/gaitech/catkin_generated/installspace/gaitech.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gaitech/cmake" TYPE FILE FILES
-    "/home/ramraj/catkin_ws/build/gaitech/catkin_generated/installspace/gaitechConfig.cmake"
-    "/home/ramraj/catkin_ws/build/gaitech/catkin_generated/installspace/gaitechConfig-version.cmake"
+    "/home/ramraj/catkin_ws_copy/build/gaitech/catkin_generated/installspace/gaitechConfig.cmake"
+    "/home/ramraj/catkin_ws_copy/build/gaitech/catkin_generated/installspace/gaitechConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gaitech" TYPE FILE FILES "/home/ramraj/catkin_ws/src/gaitech/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gaitech" TYPE FILE FILES "/home/ramraj/catkin_ws_copy/src/gaitech/package.xml")
 endif()
 

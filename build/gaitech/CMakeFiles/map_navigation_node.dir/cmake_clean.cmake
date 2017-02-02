@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_navigation_node.dir/src/turtlebot/navigation/map_navigation/map_navigation.cpp.o"
-  "/home/ramraj/catkin_ws/devel/lib/gaitech/map_navigation_node.pdb"
-  "/home/ramraj/catkin_ws/devel/lib/gaitech/map_navigation_node"
+  "/home/ramraj/catkin_ws_copy/devel/lib/gaitech/map_navigation_node.pdb"
+  "/home/ramraj/catkin_ws_copy/devel/lib/gaitech/map_navigation_node"
 )
 
 # Per-language clean rules from dependency scanning.

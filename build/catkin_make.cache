@@ -1,2 +1,2 @@
 beginner_tutorials:gaitech
--DCATKIN_DEVEL_PREFIX=/home/ramraj/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ramraj/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ramraj/catkin_ws_copy/devel -DCMAKE_INSTALL_PREFIX=/home/ramraj/catkin_ws_copy/install -G Unix Makefiles

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ramraj/catkin_ws/src/gaitech/src/turtlebot/navigation/map_navigation/map_navigation.cpp
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlebot/navigation/map_navigation/map_navigation.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h
@@ -14,7 +14,7 @@ move_base_msgs/MoveBaseAction.h
 actionlib/client/simple_action_client.h
 -
 sound_play/sound_play.h
-/home/ramraj/catkin_ws/src/gaitech/src/turtlebot/navigation/map_navigation/sound_play/sound_play.h
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlebot/navigation/map_navigation/sound_play/sound_play.h
 
 /opt/ros/kinetic/include/XmlRpcDecl.h
 ros/macros.h
@@ -1107,6 +1107,34 @@ ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h
 
 /opt/ros/kinetic/include/rosconsole/macros_generated.h
+
+/opt/ros/kinetic/include/sound_play/SoundRequest.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/kinetic/include/sound_play/sound_play.h
+string
+-
+ros/ros.h
+-
+ros/node_handle.h
+-
+sound_play/SoundRequest.h
+-
+boost/thread.hpp
+-
 
 /opt/ros/kinetic/include/std_msgs/Header.h
 string

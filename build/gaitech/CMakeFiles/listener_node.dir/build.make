@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramraj/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ramraj/catkin_ws_copy/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramraj/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ramraj/catkin_ws_copy/build
 
 # Include any dependencies generated for this target.
 include gaitech/CMakeFiles/listener_node.dir/depend.make
@@ -58,17 +58,17 @@ include gaitech/CMakeFiles/listener_node.dir/progress.make
 include gaitech/CMakeFiles/listener_node.dir/flags.make
 
 gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o: gaitech/CMakeFiles/listener_node.dir/flags.make
-gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o: /home/ramraj/catkin_ws/src/gaitech/src/ros_basics/talker_listener/listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramraj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o"
-	cd /home/ramraj/catkin_ws/build/gaitech && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o -c /home/ramraj/catkin_ws/src/gaitech/src/ros_basics/talker_listener/listener.cpp
+gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o: /home/ramraj/catkin_ws_copy/src/gaitech/src/ros_basics/talker_listener/listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramraj/catkin_ws_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o"
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o -c /home/ramraj/catkin_ws_copy/src/gaitech/src/ros_basics/talker_listener/listener.cpp
 
 gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.i"
-	cd /home/ramraj/catkin_ws/build/gaitech && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramraj/catkin_ws/src/gaitech/src/ros_basics/talker_listener/listener.cpp > CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.i
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramraj/catkin_ws_copy/src/gaitech/src/ros_basics/talker_listener/listener.cpp > CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.i
 
 gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.s"
-	cd /home/ramraj/catkin_ws/build/gaitech && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramraj/catkin_ws/src/gaitech/src/ros_basics/talker_listener/listener.cpp -o CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.s
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramraj/catkin_ws_copy/src/gaitech/src/ros_basics/talker_listener/listener.cpp -o CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.s
 
 gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o.requires:
 
@@ -88,38 +88,38 @@ listener_node_OBJECTS = \
 # External object files for target listener_node
 listener_node_EXTERNAL_OBJECTS =
 
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/build.make
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf2.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librostime.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ramraj/catkin_ws/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramraj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ramraj/catkin_ws/devel/lib/gaitech/listener_node"
-	cd /home/ramraj/catkin_ws/build/gaitech && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/listener_node.dir/link.txt --verbose=$(VERBOSE)
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/src/ros_basics/talker_listener/listener.cpp.o
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/build.make
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libtf2.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/librostime.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node: gaitech/CMakeFiles/listener_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramraj/catkin_ws_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node"
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/listener_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gaitech/CMakeFiles/listener_node.dir/build: /home/ramraj/catkin_ws/devel/lib/gaitech/listener_node
+gaitech/CMakeFiles/listener_node.dir/build: /home/ramraj/catkin_ws_copy/devel/lib/gaitech/listener_node
 
 .PHONY : gaitech/CMakeFiles/listener_node.dir/build
 
@@ -128,10 +128,10 @@ gaitech/CMakeFiles/listener_node.dir/requires: gaitech/CMakeFiles/listener_node.
 .PHONY : gaitech/CMakeFiles/listener_node.dir/requires
 
 gaitech/CMakeFiles/listener_node.dir/clean:
-	cd /home/ramraj/catkin_ws/build/gaitech && $(CMAKE_COMMAND) -P CMakeFiles/listener_node.dir/cmake_clean.cmake
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && $(CMAKE_COMMAND) -P CMakeFiles/listener_node.dir/cmake_clean.cmake
 .PHONY : gaitech/CMakeFiles/listener_node.dir/clean
 
 gaitech/CMakeFiles/listener_node.dir/depend:
-	cd /home/ramraj/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramraj/catkin_ws/src /home/ramraj/catkin_ws/src/gaitech /home/ramraj/catkin_ws/build /home/ramraj/catkin_ws/build/gaitech /home/ramraj/catkin_ws/build/gaitech/CMakeFiles/listener_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramraj/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramraj/catkin_ws_copy/src /home/ramraj/catkin_ws_copy/src/gaitech /home/ramraj/catkin_ws_copy/build /home/ramraj/catkin_ws_copy/build/gaitech /home/ramraj/catkin_ws_copy/build/gaitech/CMakeFiles/listener_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gaitech/CMakeFiles/listener_node.dir/depend
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ramraj/catkin_ws/src/gaitech/src/turtlesim/cleaning_app/robot_cleaner.cpp
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlesim/cleaning_app/robot_cleaner.cpp
 ros/ros.h
-/home/ramraj/catkin_ws/src/gaitech/src/turtlesim/cleaning_app/ros/ros.h
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlesim/cleaning_app/ros/ros.h
 geometry_msgs/Twist.h
-/home/ramraj/catkin_ws/src/gaitech/src/turtlesim/cleaning_app/geometry_msgs/Twist.h
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlesim/cleaning_app/geometry_msgs/Twist.h
 turtlesim/Pose.h
-/home/ramraj/catkin_ws/src/gaitech/src/turtlesim/cleaning_app/turtlesim/Pose.h
+/home/ramraj/catkin_ws_copy/src/gaitech/src/turtlesim/cleaning_app/turtlesim/Pose.h
 sstream
 -
 

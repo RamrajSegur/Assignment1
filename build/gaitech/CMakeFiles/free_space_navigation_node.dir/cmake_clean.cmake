@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/free_space_navigation_node.dir/src/turtlebot/navigation/free_space_navigation/free_space_navigation.cpp.o"
-  "/home/ramraj/catkin_ws/devel/lib/gaitech/free_space_navigation_node.pdb"
-  "/home/ramraj/catkin_ws/devel/lib/gaitech/free_space_navigation_node"
+  "/home/ramraj/catkin_ws_copy/devel/lib/gaitech/free_space_navigation_node.pdb"
+  "/home/ramraj/catkin_ws_copy/devel/lib/gaitech/free_space_navigation_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ramraj/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ramraj/catkin_ws_copy/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ramraj/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ramraj/catkin_ws_copy/build
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometry_msgs_
 .PHONY : gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ramraj/catkin_ws/build/gaitech && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ramraj/catkin_ws_copy/build/gaitech && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ramraj/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramraj/catkin_ws/src /home/ramraj/catkin_ws/src/gaitech /home/ramraj/catkin_ws/build /home/ramraj/catkin_ws/build/gaitech /home/ramraj/catkin_ws/build/gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramraj/catkin_ws_copy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramraj/catkin_ws_copy/src /home/ramraj/catkin_ws_copy/src/gaitech /home/ramraj/catkin_ws_copy/build /home/ramraj/catkin_ws_copy/build/gaitech /home/ramraj/catkin_ws_copy/build/gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gaitech/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 
