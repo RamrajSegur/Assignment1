@@ -1,0 +1,8 @@
+prefix=/home/ramraj/catkin_ws/devel
+
+Name: gaitech
+Description: Description of gaitech
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ramraj/catkin_ws/devel/lib 
+Requires: 
